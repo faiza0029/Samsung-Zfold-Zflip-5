@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.logo{
+     margin-top: -80px;
+     margin-left: 10px;
+     display: flex;
+     align-items: center; 
+}
+.container ul{
+     display: flex;
+     margin-top:10px;
+     list-style: none;
+}
+.container ul li a{
+     list-style: none; 
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 0.90rem;
+     font-weight: 600;
+     color: #000;
+     border-radius: 50px;
+     padding: 10px;
+    text-decoration: none;
+}
+.container ul li a:hover{
+     transition: 0.5px;
+     background-color: #2a2828;
+     color: #fff;
+}
+.end{
+    display: flex;
+    margin-left: 300px;
+} 
+.icon{
+    margin-top:10px;
+    margin-left: 30px;
+}
+.icon i{
+    font-size: 20px;
+     margin-left: 12px;
+}
+.icon i:hover{
+    color: #b9a3a3;
+}
+.content h1{
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.button{
+    position: absolute;
+    bottom: 35%;
+    left: 8%;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+.button:hover{
+    border-bottom: 3px solid white;
+    transition: 0.6s;
+}
+.buy{
+    position: absolute;
+    bottom: 34%;
+    left: 18%;
+    font-size: 17px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.buy:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+} 
+.image{
+    top: 25%;
+    left: 28%;
+    position: relative; 
+    font-size: 400px;
+}
+.content2 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+.btn{
+    position: absolute;
+    bottom: 35%;
+    right: 20%;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+.btn:hover{
+    border-bottom: 3px solid white;
+    transition: 0.6s;
+}
+.by{
+    position: absolute;
+    bottom: 34%;
+    right: 9%;
+    font-size: 17px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.by:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+} 
+.product{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+
+}
+.product h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.product ul li{
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: 2px solid rgb(60, 59, 59);
+}
+.product ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.6s; 
+}
+.img{
+     position: relative;
+     left: 20%;  
+}
+.img2{
+    align-items: center;
+    
+}
+
+
+.select{
+    background-color: #b8b8b8;
+    height: 660px;
+}
+
+
+.select h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.select ul li{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 130px;
+    text-align: center;
+    border-bottom: 2px solid rgb(60, 59, 59);
+}
+.select ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.6s; 
+}
+.img2{
+    position: relative;
+    left: 25%;  
+}
+.select2 p{
+    font-size: 20px;
+    text-align: center;
+}
+.bbt{
+   position: absolute;
+    right: 640px; 
+    font-size: 16px; 
+    background-color: #000;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.bbt:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+} 
+
+.main2{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 500px;
+}
+.items li{
+    margin: 10px;
+}
+.items li:hover{
+    border-bottom: 3px solid black;
+    transition: 0.5s;  
+}
+.deals-1{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    display: flex;
+}
+.one{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 60px;
+    padding: 60px;
+    padding: auto;
+    background-color: #f1f0f0;
+}
+.one-text{
+    width: 300px;
+    height: 390px;
+}
+.one-text img{
+   width: 290px;
+   transition-property: width;
+   transition-duration: 1s;
+   transition-timing-function: ease-in-out;  
+}
+.one-text img:hover{
+    cursor: pointer;
+    width: 250px;
+}
+.one-text p{
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    margin-left: 50px;
+}
+.one-text button{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: white;
+    margin-left: 100px;
+    transition: 0.6s;
+}
+.one-text button:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+}
+
+
+.deals-2{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    display: flex;
+}
+.two{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 60px;
+    padding: 60px;
+    padding: auto;
+    background-color: #f1f0f0;
+}
+.two-text{
+    width: 300px;
+    height: 390px;
+}
+.two-text img{
+   width: 290px;
+   /* height: 500px; */
+   transition-property: width;
+   transition-duration: 1s;
+   transition-timing-function: ease-in-out;  
+}
+.two-text img:hover{
+    cursor: pointer;
+    width: 250px;
+}
+.two-text p{
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 60px;
+}
+.two-text button{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: white;
+    margin-left: 120px;
+    transition: 0.6s;
+}
+.two-text button:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+}
+
+
+.deals-3{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    display: flex;
+}
+.three{
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 60px;
+    padding: 60px;
+    padding: auto;
+    background-color: #f1f0f0;
+}
+.three-text{
+    width: 300px;
+    height: 390px;
+}
+.three-text img{
+   width: 290px;
+   transition-property: width;
+   transition-duration: 1s;
+   transition-timing-function: ease-in-out;  
+}
+.three-text img:hover{
+    cursor: pointer;
+    width: 250px;
+}
+.three-text p{
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 70px;
+}
+.three-text button{
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: white;
+    margin-left: 120px;
+    transition: 0.6s;
+}
+.three-text button:hover{
+    background-color: #5e5e5e;
+    letter-spacing: 1px;
+}
+
+
+
+
+.newsletter{
+    background-color: #dadada;
+    height: 300px;
+}
+.newsletter .container2{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter .text h4{
+    color:black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.newsletter .text p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.newsletter .sub-form{
+    width: 500px;
+    position: relative;
+    border: 5px;
+}
+.newsletter .sub-form input{
+    width: 90%;
+    padding: 18px; 
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.newsletter .sub-form .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 150px;
+    border: none;
+    background-color: #5e5e5e;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: none;
+    transition: 0.6s;
+}
+.newsletter .sub-form .btn:hover{
+    background-color:#8a8888;
+}
+.container3{
+    padding: 50px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.big-rows{
+    width: 33%;
+    padding-right: 50px;
+    margin-left: 40%;
+}
+.big-rows h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111; 
+    text-transform: uppercase;
+
+}
+.big-rows h4 span{
+    color:#5e5e5e;
+}
+.big-rows p{
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-left: -50%;
+}
+.icon2 a i{
+    width: 40px;
+    height: 40px;
+    background-color:#2a2828;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #2a2828;
+
+
+}
+.icon2 a i:hover{
+    background-color: transparent;
+    color: #2a2828;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
